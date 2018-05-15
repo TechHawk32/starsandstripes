@@ -3,9 +3,9 @@
 #include "E101.h"
 
 //Sensors and motor constants
-const int F_SENSOR = 0; //Front sensor pin
-const int L_SENSOR = 0; //Left sensor pin
-const int R_SENSOR = 0; //Right sensor pin
+const int F_SENSOR = A6; //Front sensor pin
+const int L_SENSOR = A5; //Left sensor pin
+const int R_SENSOR = A0; //Right sensor pin
 const int L_MOTOR  = 1; //Left motor
 const int R_MOTOR  = 2; //Right motor
 
